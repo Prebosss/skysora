@@ -1,99 +1,218 @@
+import time
 from bs4 import BeautifulSoup
-import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from datetime import date
-import time
+from datetime import datetime, timedelta
+import pandas as pd
+import airportsdata
 
-# print("Enter the following details:\n")
-# home = input("Enter aiport code of departure: ")
-# location = input("Enter airport code of destination: ")
-# depMonth = input("Month of departue (XX): ")
-# depDay = input("Date of departure (XX): ")
-# retMonth = input("Month of return (XX): ")
-# retDay = input("Date of return (XX): ")
+airports = airportsdata.load('IATA')
 
-# Example URL
-# op = webdriver.ChromeOptions()
-# op.add_argument('headless')
-# driver = webdriver.Chrome(options=op)
+def dateChecker(prompt):
+    while True:
+        date = input(prompt)
+        if (datetime.strptime(date, "%m/%d/%Y")) > (datetime.now() + timedelta(days=300)):
+            print("Date cannot be more than 300 days in the future")
+            continue
+        elif (datetime.strptime(date, "%m/%d/%Y") < datetime.now()):
+            print("Date cannot be in the past")
+            continue
+        else:
+            try:
+                retVal = datetime.strptime(date, "%m/%d/%Y")
+                return retVal
+            except ValueError:
+                print("Incorrect format. Please enter date in MM/DD/YYYY format.")
 
-driver = webdriver.Chrome()
-# url = 'https://www.kayak.com/flights/' + home + '-' + location + '/2025-' + depMonth + '-' + depDay + '/2025-' + retMonth + '-' + retDay
+def airportChecker(prompt):
+    while True:
+        code = input(prompt)
+        if code in airports:
+            return code
+        else:
+            print("Airport code not found. Re-enter airport code.")
 
-url = "https://www.kayak.com/flights/ATL-DFW/2025-04-22/2025-04-29"
+def main(): 
+    print("Enter the following details:\n")
+    home = airportChecker("Enter aiport code of departure: ")
+    location = airportChecker("Enter airport code of destination: ")
+    depDate = dateChecker("Start Interval (MM/DD/YYYY): ")
+    retDate = dateChecker("End Interval (MM/DD/YYYY): ")
+    interval = int(input("How many days on the trip (Not Counting Arrival): "))
+    while True:
+        if (depDate + timedelta(days=interval)) > retDate:
+            print("Too many days")
+            interval = int(input("How many days on the trip (Not Counting Arrival): "))
+        else:
+            break
 
-arr = []
-try:
-    # Open the webpage
-    driver.get(url)
+    driver = webdriver.Chrome()
 
-    # Wait for the page to load completely
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.TAG_NAME, "body"))
-    )
+    # Initialize an empty list to store the days
+    days = []
+    array = []
+    intDate = depDate
+    # Iterate through the range of dates
+    current_date = depDate
+    while current_date <= retDate:
+        days.append(current_date.strftime("%m/%d/%Y"))
+        intDate = current_date + timedelta(days=interval)
+        if (intDate <= retDate):
+            date1 = current_date.strftime("%Y-%m-%d")
+            date2 = intDate.strftime("%Y-%m-%d")
+            url = "https://www.kayak.com/flights/" + home + "-" + location + "/" + date1 + "/" + date2
+            try:
+                # Open the webpage
+                driver.get(url)
 
-    # Get the page source
-    page_source = driver.page_source
+                # Wait for the flight results to load
+                retry = 1
+                while retry != 0:
+                    try:
+                        WebDriverWait(driver, 10).until(
+                            EC.presence_of_element_located((By.CLASS_NAME, "nrc6-inner"))
+                        )
+                        break
+                    except:
+                        print("Error on Page")
+                        driver.refresh()
+                        retry -= 1
+                
+                # Get the page source
+                page_source = driver.page_source
 
-    # Parse the HTML content using BeautifulSoup
-    soup = BeautifulSoup(page_source, 'html.parser')
+                # Parse the HTML content using BeautifulSoup
+                soup = BeautifulSoup(page_source, 'html.parser')
+                Fxw9 = soup.find(class_ = 'Fxw9')
+                if Fxw9:
+                    flights = Fxw9.find_all(class_='nrc6-inner')
+                    if flights:
+                        for flight in flights:
 
-    flights = soup.find_all(class_ = 'Fxw9-result-item-container')
+                            #Sets Up all the variables
+                            a = flight.find(class_='nrc6-price-section nrc6-mod-multi-fare')
+                            b = flight.find_all(class_='VY2U')
+                            c = flight.find_all(class_='xdW8')
+                            d = flight.find_all(class_='JWEO')
 
-    # print(flights.prettify())
+                            #Finds Price
+                            if a:
+                                p = a.find(class_='f8F1-price-text')
+                                price = p.text.strip()
+                                e = a.find(class_='ss46-icon-group-wrapper ss46-mod-gap-size-default')
+                                if e:
+                                    #Carry-On
+                                    f = e.find(attrs={'aria-label': 'Carry-on bag 1 carry-on bag'})
+                                    if f:
+                                        carryon = "1 Carry-On Included"
+                                    f = e.find(attrs={'aria-label': 'Carry-on bag 2 carry-on bag'})
+                                    if f:
+                                        carryon = "2 Carry-Ons Included"
+                                    f = e.find(attrs={'aria-label': 'Carry-on bag No carry-on bags'})
+                                    if f:
+                                        carryon = "Carry-On Prohibited"
+                                    else:
+                                        carryon = "Carry-On Fee"
 
-    # price = flights.find_all(class_ = 'f8F1-price-text')
-    # print(price.text.strip())
+                                    #Checked Bag
+                                    f = e.find(attrs={'aria-label': 'Checked bag 1 checked bag'})
+                                    if f:
+                                        checked = "1 Checked Bag Included"
+                                    f = e.find(attrs={'aria-label': 'Checked bag 2 checked bag'})
+                                    if f:
+                                        checked = "2 Checked Bags Included"
+                                    f = e.find(attrs={'aria-label': 'Checked bag No checked bags'})
+                                    if f:
+                                        checked = "Checked bag Prohibited"
+                                    f = e.find(attrs={'aria-label': 'Checked bag Checked bag info unavailable'})
+                                    if f:
+                                        checked = "Checked Bag Info Unavailable"
+                                    else:
+                                        checked = "Checked Bag Fee"
+                                    
+                                    #Seats
+                                    f = e.find(attrs={'aria-label': 'Seat selection Free seat selection'})
+                                    if f:
+                                        seat = "Free Seat Selection"
+                                    f = e.find(attrs={'aria-label': 'Seat selection No seat selection'})
+                                    if f:
+                                        seat = "No Seat Selection"
+                                    else:
+                                        seat = "Seat Selection Fee"
+                                else:
+                                    print("ss46-icon-group-wrapper not found.")
+                                    carryon = "Error"
+                                    checked = "Error"
+                                    seat = "Error"
+                                    
+                                        
+                            else:
+                                print("nrc6-price-section not found.")
 
-    # arrival = flights.find_all(class_ = 'vmXl vmXl-mod-variant-large')
-    # print(arrival.text.strip())
+                            #Finds Stops 0-1 & Provider
+                            if d:
+                                first = True
+                                for k in d:
+                                    stops = k.find(class_='JWEO-stops-text')
+                                    if first:
+                                        stops1 = stops.text.strip().rstrip('-')
+                                        if stops1 != "nonstop":
+                                            stopPlace = k.find(class_='c_cgF c_cgF-mod-variant-default')
+                                            if stopPlace:
+                                                place1 = stopPlace.text.strip().rstrip('-')
+                                        else:
+                                            place1 = "None"
+                                        first = False
+                                    else:
+                                        stops2 = stops.text.strip().rstrip('-')
+                                        if stops2 != "nonstop":
+                                            stopPlace2 = k.find(class_='c_cgF c_cgF-mod-variant-default')
+                                            if stopPlace2:
+                                                place2 = stopPlace2.text.strip().rstrip('-')
+                                        else:
+                                            place2 = "None"
 
-    # depart =  flights.find_all(class_ = 'aOlM')
-    # print(depart.text.strip())
+                            #Finds Departure and Arrival Times
+                            if c:
+                                first = True
+                                for j in c:
+                                    ftime = j.find(class_='vmXl vmXl-mod-variant-default')
+                                    if first:
+                                        dtime = ftime.text.strip().rstrip('-')
+                                        first = False
+                                    else:
+                                        atime = ftime.text.strip().rstrip('-')
+                            
+                            #Finds Provider and Flight Time
+                            if b:
+                                first = True
+                                for i in b:
+                                    depart = i.find(class_='vmXl vmXl-mod-variant-large')
+                                    provider = i.find(class_='c_cgF c_cgF-mod-variant-default')
+                                    if first:
+                                        dtext = depart.text.strip().rstrip('-')
+                                        ptext = provider.text.strip()
+                                        first = False
+                                    else:
+                                        dtext2 = depart.text.strip().rstrip('-')
+                                        ptext2 = provider.text.strip()
+                                        array.append([date1, date2, price, ptext, stops1, place1, dtext, dtime, ptext2, stops2, place2, dtext2, atime, carryon, checked, seat])
+                    else:
+                        print("Element with class 'nrc6-inner' not found.")
+                else:
+                    print("Element with class 'Fxw9' not found.")
 
+            except Exception as e:
+                print(e)
+                print("Error occurred while scraping the page")
+            
+        current_date += timedelta(days=1)
 
-    # Print the title of the page
-    for flight in flights:
-        arrival = flight.find(class_ = 'vmXl vmXl-mod-variant-large')
-        print(arrival.text.strip())
-        depart =  flight.find(class_ = 'aOlM')
-        print(depart.text.strip())
-        price = flight.find(class_ = 'f8F1-price-text')
-        for p in price:
-            print(p.text.strip())
-        print("\n")
-    print(3)
-finally:
-    # Close the WebDriver
+    df = pd.DataFrame(array, columns=['Date1', 'Date2', 'Price', 'Provider1', 'Stops1', 'Stop1', 'Flight Time', 'Departure Time', 'Provider2', 'Stops2', 'Stop2', 'Flight Time2', 'Arrival Time', 'Carry-On', 'Checked Bag', 'Seat Selection'])
+    df.to_csv('flights.csv')
     driver.quit()
 
-
-
-
-# print(url)
-
-# # Create a session
-# session = requests.Session()
-
-# # Set headers
-# headers = {
-#     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36',
-#     'Accept-Language': 'en-US,en;q=0.9',
-#     'Accept-Encoding': 'gzip, deflate, br',
-#     'Connection': 'keep-alive',
-#     'Upgrade-Insecure-Requests': '1',
-#     'DNT': '1',  # Do Not Track Request Header
-# }
-
-# # Send a GET request to the URL with headers
-# response = session.get(url, headers=headers)
-
-# # Parse the HTML content using BeautifulSoup
-# soup = BeautifulSoup(response.content, 'html.parser')
-
-# # Print the title of the page
-# print(soup.title.string)
+main()
