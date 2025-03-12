@@ -105,40 +105,32 @@ def main():
                                 e = a.find(class_='ss46-icon-group-wrapper ss46-mod-gap-size-default')
                                 if e:
                                     #Carry-On
-                                    f = e.find(attrs={'aria-label': 'Carry-on bag 1 carry-on bag'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Carry-on bag 1 carry-on bag'}):
                                         carryon = "1 Carry-On Included"
-                                    f = e.find(attrs={'aria-label': 'Carry-on bag 2 carry-on bag'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Carry-on bag 2 carry-on bag'}):
                                         carryon = "2 Carry-Ons Included"
-                                    f = e.find(attrs={'aria-label': 'Carry-on bag No carry-on bags'})
-                                    if f:
+                                    
+                                    if e.find(attrs={'aria-label': 'Carry-on bag No carry-on bags'}):
                                         carryon = "Carry-On Prohibited"
                                     else:
                                         carryon = "Carry-On Fee"
 
                                     #Checked Bag
-                                    f = e.find(attrs={'aria-label': 'Checked bag 1 checked bag'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Checked bag 1 checked bag'}):
                                         checked = "1 Checked Bag Included"
-                                    f = e.find(attrs={'aria-label': 'Checked bag 2 checked bag'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Checked bag 2 checked bag'}):
                                         checked = "2 Checked Bags Included"
-                                    f = e.find(attrs={'aria-label': 'Checked bag No checked bags'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Checked bag No checked bags'}):
                                         checked = "Checked bag Prohibited"
-                                    f = e.find(attrs={'aria-label': 'Checked bag Checked bag info unavailable'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Checked bag Checked bag info unavailable'}):
                                         checked = "Checked Bag Info Unavailable"
                                     else:
                                         checked = "Checked Bag Fee"
                                     
                                     #Seats
-                                    f = e.find(attrs={'aria-label': 'Seat selection Free seat selection'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Seat selection Free seat selection'}):
                                         seat = "Free Seat Selection"
-                                    f = e.find(attrs={'aria-label': 'Seat selection No seat selection'})
-                                    if f:
+                                    if e.find(attrs={'aria-label': 'Seat selection No seat selection'}):
                                         seat = "No Seat Selection"
                                     else:
                                         seat = "Seat Selection Fee"
