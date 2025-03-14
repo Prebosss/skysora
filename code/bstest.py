@@ -48,9 +48,12 @@ def main():
             interval = int(input("How many days on the trip (Not Counting Arrival): "))
         else:
             break
-
-    driver = webdriver.Chrome()
-
+        
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    user_agent_string = ' mozilla/5.0 (windows nt 10.0: win64: x64) applewebkit/537.36 (khtml: like gecko) chrome/58.0.3029.110 safari/537.3'
+    options.add_argument(f'user-agent={user_agent_string}')
+    driver = webdriver.Chrome(options=options)
     # Initialize an empty list to store the days
     days = []
     array = []
@@ -205,6 +208,21 @@ def main():
 
     df = pd.DataFrame(array, columns=['Date1', 'Date2', 'Price', 'Provider1', 'Stops1', 'Stop1', 'Flight Time', 'Departure Time', 'Provider2', 'Stops2', 'Stop2', 'Flight Time2', 'Arrival Time', 'Carry-On', 'Checked Bag', 'Seat Selection'])
     df.to_csv('flights.csv')
+    minPrice = df['Price'].min()
+    minPriceIndex = df['Price'].idxmin()
+    print("\n---------------------------------")
+    print("Cheapest Flight is: "+ str(minPrice))
+    print("Dates: " + df['Date1'][minPriceIndex] + " - " + df['Date2'][minPriceIndex])
+    print("Flight Time: " + df['Flight Time'][minPriceIndex] + " - " + df['Flight Time2'][minPriceIndex])
+    print("Provider: " + df['Provider1'][minPriceIndex] + " - " + df['Provider2'][minPriceIndex])
+    print("Stops: " + df['Stops1'][minPriceIndex] + " - " + df['Stops2'][minPriceIndex])
+    print("Stop Locations: " + df['Stop1'][minPriceIndex] + " - " + df['Stop2'][minPriceIndex])
+    print("Departure Time: " + df['Departure Time'][minPriceIndex] + " - " + df['Arrival Time'][minPriceIndex])
+    print("Carry-On: " + df['Carry-On'][minPriceIndex])
+    print("Checked Bag: " + df['Checked Bag'][minPriceIndex])
+    print("Seat Selection: " + df['Seat Selection'][minPriceIndex])
+    print("------------------------------------\n")
+    print("Thank you for using the program")
     driver.quit()
 
 main()

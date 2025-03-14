@@ -1,18 +1,1 @@
 ,Date1,Date2,Price,Provider1,Stops1,Stop1,Flight Time,Departure Time,Provider2,Stops2,Stop2,Flight Time2,Arrival Time,Carry-On,Checked Bag,Seat Selection
-0,2025-05-08,2025-05-11,$187,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
-1,2025-05-08,2025-05-11,$175,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
-2,2025-05-08,2025-05-11,$155,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-3,2025-05-08,2025-05-11,$259,United Airlines,nonstop,None,7:18 pm – 9:55 pm,5h 37m,United Airlines,nonstop,None,9:51 pm – 5:40 am+1,4h 49m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-4,2025-05-08,2025-05-11,$293,Delta,nonstop,None,4:10 pm – 6:37 pm,5h 27m,Delta,nonstop,None,10:00 pm – 5:42 am+1,4h 42m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-5,2025-05-08,2025-05-11,$281,United Airlines,nonstop,None,7:18 pm – 9:55 pm,5h 37m,United Airlines,nonstop,None,10:16 am – 6:10 pm,4h 54m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-6,2025-05-08,2025-05-11,$293,Delta,nonstop,None,4:10 pm – 6:37 pm,5h 27m,Delta,nonstop,None,7:00 am – 2:49 pm,4h 49m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-7,2025-05-08,2025-05-11,$157,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-8,2025-05-08,2025-05-11,$313,Delta,nonstop,None,4:10 pm – 6:37 pm,5h 27m,Delta,nonstop,None,4:11 pm – 11:57 pm,4h 46m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-9,2025-05-08,2025-05-11,$157,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-10,2025-05-08,2025-05-11,$328,American Airlines,nonstop,None,6:59 am – 9:25 am,5h 26m,American Airlines,nonstop,None,9:55 pm – 5:40 am+1,4h 45m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
-11,2025-05-08,2025-05-11,$316,United Airlines,nonstop,None,8:45 am – 11:20 am,5h 35m,United Airlines,nonstop,None,9:51 pm – 5:40 am+1,4h 49m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
-12,2025-05-08,2025-05-11,$329,Delta,nonstop,None,7:20 am – 9:50 am,5h 30m,Delta,nonstop,None,10:00 pm – 5:42 am+1,4h 42m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-13,2025-05-08,2025-05-11,$329,Delta,nonstop,None,8:05 pm – 10:40 pm,5h 35m,Delta,nonstop,None,10:00 pm – 5:42 am+1,4h 42m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-14,2025-05-08,2025-05-11,$329,Delta,nonstop,None,7:20 am – 9:50 am,5h 30m,Delta,nonstop,None,7:00 am – 2:49 pm,4h 49m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-15,2025-05-08,2025-05-11,$329,Delta,nonstop,None,8:05 pm – 10:40 pm,5h 35m,Delta,nonstop,None,7:00 am – 2:49 pm,4h 49m,Carry-On Fee,Checked Bag Fee,No Seat Selection
-16,2025-05-08,2025-05-11,$338,United Airlines,nonstop,None,8:45 am – 11:20 am,5h 35m,United Airlines,nonstop,None,10:16 am – 6:10 pm,4h 54m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee

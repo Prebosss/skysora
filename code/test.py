@@ -1,70 +1,74 @@
+from time import sleep
 from selenium import webdriver
+from datetime import datetime
+from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from datetime import date
-import time
+import pandas as pd
+import progressbar 
+import random
 
-# Path to your ChromeDriver (if it's not in your PATH, you might need to specify the location)
-# e.g., "/usr/local/bin/chromedriver" or "/opt/homebrew/bin/chromedriver" depending on installation
-# If chromedriver is in your PATH, no need to specify the path here
+# Validate user input
+def takeUserInput(parameter):
+    while True:
+        user_input = input(f"{parameter}: ").upper()
+        if len(user_input) != 3:
+            print("Please type a valid Airport Code")
+        else:
+            break
+    return user_input
 
-price = 1000000
+def takeUserDate(parameter):
+    today_date = (str(datetime.now()))[:10]
+    today_year = int(today_date[0:4])
+    today_month = int(today_date[5:7])
+    today_day = int(today_date[8:10])
 
-print("Only one passenger")
-print("Enter the following details:\n")
-home = input("Enter aiport code of departure: ")
-location = input("Enter airport code of destination: ")
-depMonth = input("Enter month of departue (XX): ")
-depDay = input("Enter date of departure (XX): ")
-retMonth = input("Enter month of return (XX): ")
-retDay = input("Enter date of return (XX): ")
+    while True:
+        user_input = input(f"{parameter} Date (0000-00-00): ").upper()
+        if len(user_input) != 10:
+            print("Please type a valid Date")
+        else:
+            if user_input[4] == "-" and user_input[7] == "-":
+                if user_input[0:4].isnumeric() and user_input[5:7].isnumeric() and user_input[8:10]:
+                    if int(user_input[0:4]) >= today_year:
+                        if int(user_input[5:7]) >= today_month and int(user_input[5:7]) < 12:
+                            if (int(user_input[8:10]) >= today_day or int(user_input[5:7]) > today_month) and int(user_input[8:10]) <= 31:
+                                break
+                            else:
+                                print("Please check this day and make sure this date in not in the past or out of range!")
+                        else:
+                            print("Please check the month and make sure this date in not in the past or out of range!")
+                    else:
+                        print("Please check the year and make sure this date is not in the past or out of range!")
+                else:
+                    print("Only integer values are allowed in the dates")
+            else:
+                print("Please type a date in the format 0000-00-00")
+    return user_input
 
-driver = webdriver.Chrome()
-driver.implicitly_wait(2)
-try:
-    driver.get("https://www.kayak.com/flights/"+home +"-"+location+"/"+"2025-"+depMonth+"-"+depDay+"/2025-"+retMonth+"-"+retDay)
-    print(driver.title)
-    driver.find_element(By.CLASS_NAME, "c_neb-item-button").click()
-
-    try:
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//*[@aria-label='Flight origin input']"))
-        )
-    except:
-        print("Element not found")
-        driver.quit()
-    search = driver.find_element(By.XPATH, "//*[@aria-label='Flight origin input']")
-    search.send_keys(home)
-
-    airport_select = driver.find_element(By.CLASS_NAME, "dX-j-input")
-    airport_select.click()
-
-
-    search = driver.find_element(By.XPATH, "//*[@aria-label='Flight destination input']")
-    search.send_keys(location)
-
-    airport_select = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.CLASS_NAME, "dX-j-input-wrapper"))
-    )
-    airport_select.click()
-
-
-    #April 22, 2025 Prices on this day are below average
-    #April 9, 2025 Prices on this day are around average
-    #April 6, 2025 Prices on this day are above average
+# ASK THE USER WHERE THEY WANT TO FLY
+print("\n=================================================================================")
+print("=================================================================================\n")
 
 
-    date_clicker = driver.find_element(By.XPATH, "//*[@aria-label='April 22, 2025 Prices on this day are below average]").click()
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+user_agent_string = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+chrome_options.add_argument(f"user-agent={user_agent_string}")
+driver = webdriver.Chrome(options=chrome_options)
 
+URL = 'https://www.kayak.com/flights/MCO/LAX/2025-05-01/2025-05-3/'
+sleep(random.random())
+driver.get(URL)
 
-
-    # search.send_keys(Keys.RETURN)
-    time.sleep(10)
-
-finally:
-    print("hi")
-    driver.quit()
-
-
+#wait = WebDriverWait(driver, 15).until(EC.visibility_of_element_located((By.CLASS_NAME, "nrc6-inner")))
+webContent = BeautifulSoup(driver.page_source, "html.parser")
+informationAll = webContent.find_all("div", class_="nrc6-inner")
+if informationAll:
+    print("WORKS")
+else:
+    print("NOPE")
+driver.quit()
