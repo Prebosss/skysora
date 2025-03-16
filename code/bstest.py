@@ -1,4 +1,5 @@
 import time
+import random
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -48,12 +49,9 @@ def main():
             interval = int(input("How many days on the trip (Not Counting Arrival): "))
         else:
             break
-        
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    user_agent_string = ' mozilla/5.0 (windows nt 10.0: win64: x64) applewebkit/537.36 (khtml: like gecko) chrome/58.0.3029.110 safari/537.3'
-    options.add_argument(f'user-agent={user_agent_string}')
-    driver = webdriver.Chrome(options=options)
+    #Unfortunately headless mode triggers captcha way more often
+    driver = webdriver.Chrome()
+
     # Initialize an empty list to store the days
     days = []
     array = []
@@ -69,6 +67,7 @@ def main():
             url = "https://www.kayak.com/flights/" + home + "-" + location + "/" + date1 + "/" + date2
             try:
                 # Open the webpage
+                time.sleep(random.uniform(1,3))
                 driver.get(url)
 
                 # Wait for the flight results to load

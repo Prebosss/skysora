@@ -1,1 +1,261 @@
 ,Date1,Date2,Price,Provider1,Stops1,Stop1,Flight Time,Departure Time,Provider2,Stops2,Stop2,Flight Time2,Arrival Time,Carry-On,Checked Bag,Seat Selection
+0,2025-05-01,2025-05-06,$170,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+1,2025-05-01,2025-05-06,$164,Spirit Airlines,1 stop,DTW,6:50 pm – 12:29 am+1,8h 39m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+2,2025-05-01,2025-05-06,$170,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+3,2025-05-01,2025-05-06,$349,United Airlines,nonstop,None,7:18 pm – 9:55 pm,5h 37m,United Airlines,nonstop,None,10:15 am – 6:09 pm,4h 54m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+4,2025-05-01,2025-05-06,$192,Spirit Airlines,1 stop,MSY,5:10 pm – 10:44 pm,8h 34m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+5,2025-05-01,2025-05-06,$182,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,DFW,8:08 am – 7:32 pm,8h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+6,2025-05-01,2025-05-06,$349,United Airlines,nonstop,None,7:18 pm – 9:55 pm,5h 37m,United Airlines,nonstop,None,9:35 pm – 5:24 am+1,4h 49m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+7,2025-05-01,2025-05-06,$169,Spirit Airlines,1 stop,IAH,10:42 am – 5:33 pm,9h 51m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+8,2025-05-01,2025-05-06,$182,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,BWI,9:58 am – 10:14 pm,9h 16m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+9,2025-05-01,2025-05-06,$164,Spirit Airlines,1 stop,DTW,9:39 am – 5:01 pm,10h 22m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+10,2025-05-01,2025-05-06,$184,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,IAH,5:30 am – 5:06 pm,8h 36m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+11,2025-05-01,2025-05-06,$182,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,ORD,11:40 pm – 11:26 am+1,8h 46m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+12,2025-05-01,2025-05-06,$428,United Airlines,nonstop,None,8:45 am – 11:20 am,5h 35m,United Airlines,nonstop,None,10:15 am – 6:09 pm,4h 54m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+13,2025-05-01,2025-05-06,$291,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+14,2025-05-01,2025-05-06,$182,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,EWR,9:25 pm – 9:30 am+1,9h 05m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+15,2025-05-02,2025-05-07,$850,"Spirit Airlines, Avianca",2 stops,"GUA, SAL",9:10 am – 11:10 pm,17h 00m,"Avianca, Spirit Airlines",2 stops,"SAL, SAP",11:50 pm – 4:20 pm+1,13h 30m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+16,2025-05-02,2025-05-07,$865,"Spirit Airlines, Avianca",2 stops,"GUA, SAL",9:10 am – 11:10 pm,17h 00m,"Avianca, Spirit Airlines",2 stops,"SAL, GUA",12:30 am – 4:20 pm,12h 50m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+17,2025-05-03,2025-05-08,$176,Spirit Airlines,1 stop,LAS,2:48 pm – 6:59 pm,7h 11m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+18,2025-05-03,2025-05-08,$210,Spirit Airlines,1 stop,LAS,2:48 pm – 6:59 pm,7h 11m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+19,2025-05-03,2025-05-08,$240,Spirit Airlines,1 stop,LAS,2:48 pm – 6:59 pm,7h 11m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+20,2025-05-03,2025-05-08,$178,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+21,2025-05-03,2025-05-08,$212,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+22,2025-05-03,2025-05-08,$242,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+23,2025-05-03,2025-05-08,$181,Spirit Airlines,1 stop,LAS,2:48 pm – 6:59 pm,7h 11m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+24,2025-05-03,2025-05-08,$176,Spirit Airlines,1 stop,DFW,6:38 pm – 11:55 pm,8h 17m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+25,2025-05-03,2025-05-08,$210,Spirit Airlines,1 stop,DFW,6:38 pm – 11:55 pm,8h 17m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+26,2025-05-03,2025-05-08,$240,Spirit Airlines,1 stop,DFW,6:38 pm – 11:55 pm,8h 17m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+27,2025-05-03,2025-05-08,$210,Spirit Airlines,1 stop,LAS,2:48 pm – 6:59 pm,7h 11m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+28,2025-05-03,2025-05-08,$183,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+29,2025-05-03,2025-05-08,$181,Spirit Airlines,1 stop,DFW,6:38 pm – 11:55 pm,8h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+30,2025-05-03,2025-05-08,$212,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+31,2025-05-03,2025-05-08,$176,Spirit Airlines,1 stop,BWI,4:21 pm – 11:04 pm,9h 43m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+32,2025-05-04,2025-05-09,$250,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+33,2025-05-04,2025-05-09,$209,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+34,2025-05-04,2025-05-09,$230,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+35,2025-05-04,2025-05-09,$221,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+36,2025-05-04,2025-05-09,$227,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+37,2025-05-04,2025-05-09,$321,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+38,2025-05-04,2025-05-09,$351,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,IAH,2:28 pm – 12:33 am+1,7h 05m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+39,2025-05-04,2025-05-09,$251,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+40,2025-05-04,2025-05-09,$401,Frontier,1 stop,PHX,12:11 pm – 4:35 pm,7h 24m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+41,2025-05-04,2025-05-09,$217,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+42,2025-05-04,2025-05-09,$305,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+43,2025-05-04,2025-05-09,$224,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+44,2025-05-04,2025-05-09,$328,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Frontier,1 stop,IAH,2:28 pm – 12:33 am+1,7h 05m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+45,2025-05-04,2025-05-09,$240,Spirit Airlines,1 stop,IAH,10:42 am – 5:33 pm,9h 51m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+46,2025-05-04,2025-05-09,$270,Spirit Airlines,1 stop,LAS,1:51 pm – 8:21 pm,9h 30m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+47,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+48,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+49,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 7:59 pm,9h 08m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+50,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 7:59 pm,9h 08m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+51,2025-05-05,2025-05-10,$178,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+52,2025-05-05,2025-05-10,$223,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+53,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,SDF,7:46 am – 8:42 pm,9h 56m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+54,2025-05-05,2025-05-10,$223,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+55,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 10:06 pm,11h 15m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+56,2025-05-05,2025-05-10,$178,Spirit Airlines,1 stop,LAS,1:51 pm – 7:59 pm,9h 08m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+57,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 10:06 pm,11h 15m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+58,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 7:59 pm,9h 08m,Spirit Airlines,1 stop,SDF,7:46 am – 8:42 pm,9h 56m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+59,2025-05-05,2025-05-10,$210,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+60,2025-05-05,2025-05-10,$225,Spirit Airlines,1 stop,ATL,6:21 am – 11:03 am,7h 42m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+61,2025-05-05,2025-05-10,$176,Spirit Airlines,1 stop,LAS,1:51 pm – 6:59 pm,8h 08m,Spirit Airlines,1 stop,DTW,9:59 am – 12:59 am+1,12h 00m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+62,2025-05-06,2025-05-11,"$1,053","Spirit Airlines, Avianca",2 stops,"CUN, SAL",7:06 am – 11:10 pm,19h 04m,"Avianca, Spirit Airlines",2 stops,"SAL, GUA",11:50 pm – 4:20 pm+1,13h 30m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+63,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+64,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+65,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+66,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+67,2025-05-07,2025-05-12,$242,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+68,2025-05-07,2025-05-12,$242,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+69,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+70,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+71,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+72,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+73,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+74,2025-05-07,2025-05-12,$176,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+75,2025-05-07,2025-05-12,$181,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+76,2025-05-07,2025-05-12,$242,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+77,2025-05-07,2025-05-12,$242,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+78,2025-05-08,2025-05-13,$168,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+79,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+80,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+81,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+82,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+83,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+84,2025-05-08,2025-05-13,$155,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+85,2025-05-08,2025-05-13,$176,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+86,2025-05-08,2025-05-13,$176,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+87,2025-05-08,2025-05-13,$176,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+88,2025-05-08,2025-05-13,$270,Frontier,1 stop,PHX,12:11 pm – 4:35 pm,7h 24m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+89,2025-05-08,2025-05-13,$176,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+90,2025-05-08,2025-05-13,$143,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+91,2025-05-08,2025-05-13,$270,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+92,2025-05-08,2025-05-13,$176,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+93,2025-05-09,2025-05-14,$731,"Spirit Airlines, Avianca",2 stops,"GUA, SAL",9:16 am – 11:10 pm,16h 54m,"Avianca, Spirit Airlines",2 stops,"SAL, GUA",12:30 am – 4:20 pm,12h 50m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+94,2025-05-09,2025-05-14,$718,"Spirit Airlines, Avianca",2 stops,"GUA, SAL",9:16 am – 11:10 pm,16h 54m,"Avianca, Spirit Airlines",2 stops,"SAL, SAP",11:50 pm – 4:20 pm+1,13h 30m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+95,2025-05-10,2025-05-15,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+96,2025-05-10,2025-05-15,$178,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+97,2025-05-10,2025-05-15,$270,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+98,2025-05-10,2025-05-15,$176,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+99,2025-05-10,2025-05-15,$181,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+100,2025-05-10,2025-05-15,$183,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+101,2025-05-10,2025-05-15,$303,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+102,2025-05-10,2025-05-15,$176,Spirit Airlines,1 stop,IAH,11:12 am – 10:25 pm,14h 13m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+103,2025-05-10,2025-05-15,$210,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+104,2025-05-10,2025-05-15,$212,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+105,2025-05-10,2025-05-15,$275,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+106,2025-05-10,2025-05-15,$181,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+107,2025-05-10,2025-05-15,$210,Spirit Airlines,1 stop,LAS,9:36 pm – 6:51 am+1,12h 15m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+108,2025-05-10,2025-05-15,$209,Spirit Airlines,2 stops,"ATL, LAS",5:15 am – 2:06 pm,11h 51m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+109,2025-05-10,2025-05-15,$176,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,MKE,8:00 am – 10:55 pm,11h 55m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+110,2025-05-11,2025-05-16,$224,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+111,2025-05-11,2025-05-16,$217,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+112,2025-05-11,2025-05-16,$226,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+113,2025-05-11,2025-05-16,$219,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+114,2025-05-11,2025-05-16,$224,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+115,2025-05-11,2025-05-16,$244,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+116,2025-05-11,2025-05-16,$217,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+117,2025-05-11,2025-05-16,$246,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+118,2025-05-11,2025-05-16,$244,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+119,2025-05-11,2025-05-16,$344,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+120,2025-05-11,2025-05-16,$346,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+121,2025-05-11,2025-05-16,$244,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+122,2025-05-11,2025-05-16,$224,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,DTW,9:59 am – 12:59 am+1,12h 00m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+123,2025-05-11,2025-05-16,$246,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+124,2025-05-11,2025-05-16,$224,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,BNA,8:52 am – 12:11 am+1,12h 19m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+125,2025-05-12,2025-05-17,$217,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+126,2025-05-12,2025-05-17,$247,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+127,2025-05-12,2025-05-17,$217,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+128,2025-05-12,2025-05-17,$217,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,SDF,7:46 am – 8:42 pm,9h 56m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+129,2025-05-12,2025-05-17,$244,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+130,2025-05-12,2025-05-17,$274,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+131,2025-05-12,2025-05-17,$244,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+132,2025-05-12,2025-05-17,$317,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+133,2025-05-12,2025-05-17,$354,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+134,2025-05-12,2025-05-17,$244,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,SDF,7:46 am – 8:42 pm,9h 56m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+135,2025-05-12,2025-05-17,$384,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+136,2025-05-12,2025-05-17,$354,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+137,2025-05-12,2025-05-17,$244,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+138,2025-05-12,2025-05-17,$274,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+139,2025-05-12,2025-05-17,$244,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+140,2025-05-13,2025-05-18,$168,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+141,2025-05-13,2025-05-18,$162,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+142,2025-05-13,2025-05-18,$198,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+143,2025-05-13,2025-05-18,$216,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+144,2025-05-13,2025-05-18,$162,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+145,2025-05-13,2025-05-18,$216,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+146,2025-05-13,2025-05-18,$162,Spirit Airlines,1 stop,BWI,1:57 pm – 10:03 pm,11h 06m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+147,2025-05-13,2025-05-18,$289,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+148,2025-05-13,2025-05-18,$246,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+149,2025-05-13,2025-05-18,$309,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,IAH,2:28 pm – 12:33 am+1,7h 05m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+150,2025-05-13,2025-05-18,$319,Frontier,1 stop,PHX,12:11 pm – 4:35 pm,7h 24m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+151,2025-05-13,2025-05-18,$289,Frontier,1 stop,SFO,9:57 am – 3:55 pm,8h 58m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+152,2025-05-13,2025-05-18,$162,Spirit Airlines,1 stop,LAS,9:36 pm – 6:51 am+1,12h 15m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+153,2025-05-13,2025-05-18,$210,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+154,2025-05-13,2025-05-18,$309,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,LAS,8:05 pm – 7:30 am+1,8h 25m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+155,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+156,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+157,2025-05-14,2025-05-19,$242,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+158,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DTW,9:59 am – 12:59 am+1,12h 00m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+159,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,BNA,8:52 am – 12:11 am+1,12h 19m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+160,2025-05-14,2025-05-19,$212,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+161,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,5:30 am – 8:20 pm,11h 50m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+162,2025-05-14,2025-05-19,$212,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+163,2025-05-14,2025-05-19,$346,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+164,2025-05-14,2025-05-19,$244,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+165,2025-05-14,2025-05-19,$244,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+166,2025-05-14,2025-05-19,$244,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+167,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+168,2025-05-14,2025-05-19,$276,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+169,2025-05-14,2025-05-19,$210,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+170,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+171,2025-05-15,2025-05-20,$178,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+172,2025-05-15,2025-05-20,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+173,2025-05-15,2025-05-20,$212,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+174,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+175,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+176,2025-05-15,2025-05-20,$178,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+177,2025-05-15,2025-05-20,$178,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+178,2025-05-15,2025-05-20,$181,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+179,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,DTW,9:59 am – 12:59 am+1,12h 00m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+180,2025-05-15,2025-05-20,$183,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+181,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+182,2025-05-15,2025-05-20,$178,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+183,2025-05-15,2025-05-20,$210,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DTW,9:59 am – 12:59 am+1,12h 00m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+184,2025-05-15,2025-05-20,$176,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+185,2025-05-16,2025-05-21,$360,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+186,2025-05-16,2025-05-21,$242,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+187,2025-05-16,2025-05-21,$351,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,IAH,2:28 pm – 12:33 am+1,7h 05m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+188,2025-05-16,2025-05-21,$361,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+189,2025-05-16,2025-05-21,$431,Frontier,1 stop,PHX,12:11 pm – 4:35 pm,7h 24m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+190,2025-05-16,2025-05-21,$431,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,4:59 pm – 1:06 am+1,5h 07m,Carry-On Fee,Checked Bag Fee,Seat Selection Fee
+191,2025-05-16,2025-05-21,$249,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+192,2025-05-16,2025-05-21,$244,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+193,2025-05-16,2025-05-21,$251,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+194,2025-05-16,2025-05-21,$339,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+195,2025-05-16,2025-05-21,$246,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+196,2025-05-16,2025-05-21,$334,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+197,2025-05-16,2025-05-21,$279,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+198,2025-05-16,2025-05-21,$274,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+199,2025-05-16,2025-05-21,$244,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,LAS,10:30 am – 9:33 pm,8h 03m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+200,2025-05-17,2025-05-22,$265,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+201,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+202,2025-05-17,2025-05-22,$265,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+203,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+204,2025-05-17,2025-05-22,$265,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+205,2025-05-17,2025-05-22,$265,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+206,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+207,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+208,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+209,2025-05-17,2025-05-22,$444,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+210,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,BWI,1:57 pm – 11:26 pm,12h 29m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+211,2025-05-17,2025-05-22,$444,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+212,2025-05-17,2025-05-22,$304,Spirit Airlines,1 stop,IAH,11:12 am – 10:25 pm,14h 13m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+213,2025-05-17,2025-05-22,$265,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,FLL,4:42 pm – 7:22 am+1,11h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+214,2025-05-17,2025-05-22,$444,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+215,2025-05-18,2025-05-23,$280,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+216,2025-05-18,2025-05-23,$318,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+217,2025-05-18,2025-05-23,$358,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+218,2025-05-18,2025-05-23,$336,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+219,2025-05-18,2025-05-23,$336,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+220,2025-05-18,2025-05-23,$374,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+221,2025-05-18,2025-05-23,$414,Spirit Airlines,1 stop,MSY,2:09 pm – 9:09 pm,10h 00m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+222,2025-05-18,2025-05-23,$374,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+223,2025-05-18,2025-05-23,$414,Spirit Airlines,1 stop,AUS,8:32 am – 3:47 pm,10h 15m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+224,2025-05-18,2025-05-23,$358,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+225,2025-05-18,2025-05-23,$306,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+226,2025-05-18,2025-05-23,$280,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,BNA,8:52 am – 12:11 am+1,12h 19m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+227,2025-05-18,2025-05-23,$446,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,BNA,8:52 am – 9:32 pm,9h 40m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+228,2025-05-18,2025-05-23,$344,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+229,2025-05-18,2025-05-23,$384,Spirit Airlines,1 stop,FLL,8:27 am – 5:39 pm,12h 12m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+230,2025-05-19,2025-05-24,$404,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+231,2025-05-19,2025-05-24,$304,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+232,2025-05-19,2025-05-24,$414,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+233,2025-05-19,2025-05-24,$404,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+234,2025-05-19,2025-05-24,$344,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+235,2025-05-19,2025-05-24,$404,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+236,2025-05-19,2025-05-24,$304,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+237,2025-05-19,2025-05-24,$414,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+238,2025-05-19,2025-05-24,$304,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+239,2025-05-19,2025-05-24,$414,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+240,2025-05-19,2025-05-24,$484,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+241,2025-05-19,2025-05-24,$404,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Spirit Airlines,1 stop,SDF,7:46 am – 8:42 pm,9h 56m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+242,2025-05-19,2025-05-24,$384,Spirit Airlines,1 stop,BNA,11:24 am – 7:37 pm,11h 13m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+243,2025-05-19,2025-05-24,$494,Spirit Airlines,1 stop,DFW,5:30 pm – 10:01 pm,7h 31m,Spirit Airlines,1 stop,DFW,7:00 am – 4:59 pm,6h 59m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+244,2025-05-19,2025-05-24,$344,Spirit Airlines,1 stop,ATL,5:15 am – 11:32 am,9h 17m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+245,2025-05-20,2025-05-25,$166,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+246,2025-05-20,2025-05-25,$264,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,SAT,7:11 am – 4:35 pm,6h 24m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+247,2025-05-20,2025-05-25,$257,Spirit Airlines,1 stop,IAH,6:05 pm – 10:25 pm,7h 20m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+248,2025-05-20,2025-05-25,$283,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,IAH,2:10 pm – 12:16 am+1,7h 06m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+249,2025-05-20,2025-05-25,$195,Spirit Airlines,1 stop,EWR,6:15 am – 1:18 pm,10h 03m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+250,2025-05-20,2025-05-25,$307,Frontier,1 stop,PHX,12:11 pm – 4:35 pm,7h 24m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+251,2025-05-20,2025-05-25,$307,Frontier,1 stop,IAH,8:53 am – 1:28 pm,7h 35m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+252,2025-05-20,2025-05-25,$193,Spirit Airlines,1 stop,ATL,12:00 pm – 7:45 pm,10h 45m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+253,2025-05-20,2025-05-25,$264,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,ORD,12:41 am – 11:26 am,7h 45m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+254,2025-05-20,2025-05-25,$304,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,LAS,6:52 pm – 5:25 am+1,7h 33m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+255,2025-05-20,2025-05-25,$283,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,SFO,6:04 pm – 5:13 am+1,8h 09m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+256,2025-05-20,2025-05-25,$193,Spirit Airlines,1 stop,BWI,1:57 pm – 10:03 pm,11h 06m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+257,2025-05-20,2025-05-25,$304,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Spirit Airlines,1 stop,IAH,11:42 pm – 10:17 am+1,7h 35m,Carry-On Prohibited,Checked Bag Fee,Seat Selection Fee
+258,2025-05-20,2025-05-25,$283,Frontier,nonstop,None,3:15 pm – 5:48 pm,5h 33m,Frontier,1 stop,ATL,9:21 pm – 8:35 am+1,8h 14m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
+259,2025-05-20,2025-05-25,$307,Frontier,1 stop,SFO,9:57 am – 3:55 pm,8h 58m,Frontier,nonstop,None,1:57 pm – 10:04 pm,5h 07m,Carry-On Fee,Checked Bag Info Unavailable,Seat Selection Fee
